@@ -1,0 +1,21 @@
+name: sofluffy_texture_example
+description: Shows buffers drawn by native code through sofluffy_texture.
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sofluffy_texture:
+    path: ../
+  texture_demo:
+    path: packages/texture_demo
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  lints: ^6.0.0

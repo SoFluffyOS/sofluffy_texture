@@ -1,0 +1,24 @@
+name: texture_demo
+description: A plugin that draws into GPU buffers and shows them through sofluffy_texture.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sofluffy_texture:
+    path: ../../../
+
+flutter:
+  plugin:
+    platforms:
+      linux:
+        pluginClass: TextureDemoPlugin
+      macos:
+        pluginClass: TextureDemoPlugin
+      windows:
+        pluginClass: TextureDemoPlugin
